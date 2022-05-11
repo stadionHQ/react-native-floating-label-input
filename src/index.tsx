@@ -418,7 +418,7 @@ const FloatingLabelInput: React.ForwardRefRenderFunction<InputRef, Props> = (
           toValue: customLabelStyles.leftBlurred
             ? customLabelStyles.leftBlurred
             : 0,
-        }) as any // Type issues owned by vendor. https://github.com/Cnilton/react-native-floating-label-input/pull/113,
+        }) as any, // Type issues owned by vendor. https://github.com/Cnilton/react-native-floating-label-input/pull/113,
         timing(fontSizeAnimated, {
           toValue: customLabelStyles.fontSizeBlurred
             ? customLabelStyles.fontSizeBlurred
