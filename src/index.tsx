@@ -324,7 +324,7 @@ const FloatingLabelInput: React.ForwardRefRenderFunction<InputRef, Props> = (
           toValue: customLabelStyles.leftFocused
             ? customLabelStyles.leftFocused
             : 0,
-        }),
+        }) as any,
         timing(fontSizeAnimated, {
           toValue: customLabelStyles.fontSizeFocused
             ? customLabelStyles.fontSizeFocused
